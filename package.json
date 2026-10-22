@@ -1,1 +1,12 @@
 
+{
+  "name": "nodejs-ci-demo",
+  "version": "1.0.0",
+  "description": "Demo for GitHub Actions CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "build": "node --check index.js"
+  }
+}
+
